@@ -1,0 +1,19 @@
+{
+  "name": "asset",
+  "version": "1.0.0",
+  "description": "Asset is a Discord bot programmed with discord.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "discord",
+    "discord-api",
+    "discord-bot"
+  ],
+  "author": "ItzLuke2",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
