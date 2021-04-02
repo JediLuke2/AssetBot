@@ -25,7 +25,7 @@ client.on('message', message => {
     if (!client.commands.has(command)) return;
 
     try {
-        client.commands.get(command).execute(message, args);
+        client.commands.get(command).execute(message, args, client, Discord);
     } catch (error) {
         console.error(error);
         message.reply('oops, there seems to have been an error trying to execute that command!');
